@@ -1,7 +1,7 @@
 module top4digit7seg(
 input clk,rst,
 input [15:0] bin,
-output [7:0] abcdefg,
+output [6:0] abcdefg,
 output  en0, en1, en2, en3//reg???
 );
 wire [1:0] sel;
